@@ -22,6 +22,6 @@ function loadjs(url){
     document.getElementsByTagName("head")[0].appendChild(script);
 }
 
-loadcss('https://rawgit.com/kanni/IRCCloud-Nightmode/master/userstyle.css');
-loadjs('https://rawgit.com/kanni/IRCCloud-Nightmode/master/userscript.js');
+loadcss('https://cdn.rawgit.com/kanni/IRCCloud-Nightmode/master/userstyle.css');
+loadjs('https://cdn.rawgit.com/kanni/IRCCloud-Nightmode/master/userscript.js');
 ```
