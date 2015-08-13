@@ -1,0 +1,25 @@
+body {
+    background-color: #25272A !important;
+}
+
+/* move sidebar to left */
+div#sidebarwrapper {
+    right: inherit;
+    left: 0;
+    bottom: 0;
+    top: inherit;
+    height: calc(100% - 37px);
+}
+div#sidebar {
+    box-sizing: border-box;
+}
+div#sidebar #buffers {
+    margin: 0 10px;
+}
+#mainwrapper {
+    padding-right: 0 !important;
+    padding-left: 201px;
+}
+#timeContainer {
+    left: 201px !important;
+}
