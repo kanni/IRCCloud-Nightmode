@@ -4,4 +4,4 @@ var Main = {
     }
 };
 
-$(Main.init;
+$(Main.init);
