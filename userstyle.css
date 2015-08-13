@@ -32,21 +32,21 @@ div#buffersFooter p a {
 /* icons */
 
 #buffers .ssl h2 a.buffer, #orgsContainer div.network p.head.ssl, table.ssl td.statuscell div.status h2.bufferHeading{
-background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/world.svg);
+    background-image: url(/icons/world.svg);
 }
 
 #buffers h2 a.join, #buffers p.join span.icon {
-    background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/plus.svg);
+    background-image: url(/icons/plus.svg);
 }
 
 div#buffersFooter p#addNetwork a, h2#addNetworkHeading {
- background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/plus.svg);
+    background-image: url(/icons/plus.svg);
 }
 
 /* footer */
 
 #footer *, #footer a {
- color: rgba(255,255,255,0.04);
+    color: rgba(255,255,255,0.04);
 }
 
 
@@ -57,7 +57,7 @@ div#buffersFooter p#addNetwork a, h2#addNetworkHeading {
 }
 
 .bufferHead {
-border-top-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
 /* move sidebar to left */
