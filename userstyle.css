@@ -1,0 +1,83 @@
+body {
+    background-color: #25272A !important;
+}
+
+#buffers .active a.buffer {
+    color: rgba(255,255,255,0.5);
+}
+
+#buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover {
+    /*background-color: rgba(255,255,255,0.2);*/
+    background-color: #0F93F3;
+    color: rgba(255,255,255,1) !important;
+}
+
+#buffers li.connection {
+    background-color: rgba(255,255,255,0);
+}
+
+#buffers h2 a.buffer {
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: none
+}
+
+/* add a network*/
+
+div#buffersFooter p a {
+     background-color: rgba(0,0,0,0.5);
+     border-bottom: none;
+     color: rgba(255,255,255,0.5);
+}
+
+/* icons */
+
+#buffers .ssl h2 a.buffer, #orgsContainer div.network p.head.ssl, table.ssl td.statuscell div.status h2.bufferHeading{
+background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/world.svg);
+}
+
+#buffers h2 a.join, #buffers p.join span.icon {
+    background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/plus.svg);
+}
+
+div#buffersFooter p#addNetwork a, h2#addNetworkHeading {
+ background-image: url(http://cdn.arbeitsmaschine.com/irccloud/icons/plus.svg);
+}
+
+/* footer */
+
+#footer *, #footer a {
+ color: rgba(255,255,255,0.04);
+}
+
+
+/* navi */
+
+#statusActions {
+    padding-right: 20px;
+}
+
+.bufferHead {
+border-top-right-radius: 0;
+}
+
+/* move sidebar to left */
+div#sidebarwrapper {
+    right: inherit;
+    left: 0;
+    bottom: 0;
+    top: inherit;
+    height: calc(100% - 37px);
+}
+div#sidebar {
+    box-sizing: border-box;
+}
+div#sidebar #buffers {
+    margin: 0 10px;
+}
+#mainwrapper {
+    padding-right: 0 !important;
+    padding-left: 201px;
+}
+#timeContainer {
+    left: 201px !important;
+}
