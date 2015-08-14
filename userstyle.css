@@ -90,3 +90,7 @@ div#sidebar #buffers {
 #timeContainer {
     left: 201px !important;
 }
+
+#footer {
+    display: none;
+}
