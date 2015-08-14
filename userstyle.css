@@ -1,3 +1,12 @@
+* {
+    /* performance */
+    text-rendering: optimizeSpeed;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
 body {
     background-color: #25272A !important;
 }
